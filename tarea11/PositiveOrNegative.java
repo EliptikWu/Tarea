@@ -1,0 +1,18 @@
+package tarea11;
+
+public class PositiveOrNegative {
+        public byte numero;
+
+        public void asignarNumero(byte next){
+            this.numero = next;
+        }
+
+        public String resultado(){
+            if (numero < 0){
+                return "The number " + numero + " is negative";
+            }else {
+                return "The number " + numero + " is positive";
+            }
+        }
+}
+
